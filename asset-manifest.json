@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/epicgamesfrontenddemo/static/css/main.dbcf0b11.chunk.css",
+    "main.js": "/epicgamesfrontenddemo/static/js/main.a7b74d66.chunk.js",
+    "main.js.map": "/epicgamesfrontenddemo/static/js/main.a7b74d66.chunk.js.map",
+    "runtime-main.js": "/epicgamesfrontenddemo/static/js/runtime-main.a7871b70.js",
+    "runtime-main.js.map": "/epicgamesfrontenddemo/static/js/runtime-main.a7871b70.js.map",
+    "static/js/2.60ef7f84.chunk.js": "/epicgamesfrontenddemo/static/js/2.60ef7f84.chunk.js",
+    "static/js/2.60ef7f84.chunk.js.map": "/epicgamesfrontenddemo/static/js/2.60ef7f84.chunk.js.map",
+    "index.html": "/epicgamesfrontenddemo/index.html",
+    "static/css/main.dbcf0b11.chunk.css.map": "/epicgamesfrontenddemo/static/css/main.dbcf0b11.chunk.css.map",
+    "static/js/2.60ef7f84.chunk.js.LICENSE.txt": "/epicgamesfrontenddemo/static/js/2.60ef7f84.chunk.js.LICENSE.txt",
+    "static/media/acvalhala.8680910a.jpg": "/epicgamesfrontenddemo/static/media/acvalhala.8680910a.jpg",
+    "static/media/cyberpunk.d87bd2ac.jpg": "/epicgamesfrontenddemo/static/media/cyberpunk.d87bd2ac.jpg",
+    "static/media/footballmanager2020.954bdb5b.jpg": "/epicgamesfrontenddemo/static/media/footballmanager2020.954bdb5b.jpg",
+    "static/media/fortnite.4fc4aa76.jpg": "/epicgamesfrontenddemo/static/media/fortnite.4fc4aa76.jpg",
+    "static/media/gtav.218f1cf3.jpg": "/epicgamesfrontenddemo/static/media/gtav.218f1cf3.jpg",
+    "static/media/logo.63d9102a.png": "/epicgamesfrontenddemo/static/media/logo.63d9102a.png",
+    "static/media/reddeadredemption2.81dfc308.jpg": "/epicgamesfrontenddemo/static/media/reddeadredemption2.81dfc308.jpg",
+    "static/media/rocketleague.da2c4858.jpg": "/epicgamesfrontenddemo/static/media/rocketleague.da2c4858.jpg",
+    "static/media/roguecompany.b2e73a91.jpg": "/epicgamesfrontenddemo/static/media/roguecompany.b2e73a91.jpg",
+    "static/media/watchdogslegion.0222ec58.jpg": "/epicgamesfrontenddemo/static/media/watchdogslegion.0222ec58.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a7871b70.js",
+    "static/js/2.60ef7f84.chunk.js",
+    "static/css/main.dbcf0b11.chunk.css",
+    "static/js/main.a7b74d66.chunk.js"
+  ]
+}
