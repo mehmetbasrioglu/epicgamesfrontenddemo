@@ -1,39 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 .App {
-  text-align: center;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color:#dadbd3;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  outline: 0;
+}
+.app_body{
+  display: flex;
+  background: #1b1b1b;
+  margin-top: 0px;
+  height: 90vh max-content;
+  width: 90vw;
+
+  overflow: hidden!important;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
-}
-
-.App-header {
-  min-height: 100vh;
+.sidebar{
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  flex: 0.3;
+  background: #1b1b1b;
+  color: white;
+  padding: 30px;
+  border-right: 2px solid #292929;
+}
+
+.sidebar .logo{
+  width: 3vw;
+  height: 6vh;
+}
+
+.sidebar .logoarea{
+
+  display: flex;
+  justify-content: flex-start;
   align-items: center;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 20px;
+}
+.sidebar .logoarea h4{
+  font-weight: 200;
+  margin: 10px;
+  color: lightgray;
+}
+
+.sidebar .sidebaritems{
+  
+  display: flex;
+  flex-direction: column;
+
+}
+
+.sidebar .sidebaritems button{
+  border: none;
+  background: none;
+  color: gray;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  font-size: 15px;
+
+  margin: 10px;
+
+}
+
+.sidebar .sidebaritems button:hover{
+  cursor: pointer;
+  color: white;
+
+
+}
+
+.sidebar .sidebaritems button svg{
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+
+.sidebar .sidebaritems_info{
+  margin-top: 180px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.sidebar .sidebaritems_info button{
+  border: none;
+  background: none;
+  color: gray;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  font-size: 15px;
+
+  margin: 10px;
+  position: relative;
+
+}
+
+.sidebar .sidebaritems_info button:hover{
+  cursor: pointer;
+  color: white;
+
+
+}
+
+.sidebar .sidebaritems_info button svg{
+  margin-right: 20px;
+  font-size: 20px;
+  
+}
+
+.badge{
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+  padding: 4px 4px;
+  border-radius: 180px;
+ 
+  background-color: #00ff00;
+  color: white;
+}
+
+.store{
+  flex: 1;
+}
+
+.cards{
+  padding: 40px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  max-height: 500px;
+  margin: 10px;
+}
+
+.cards::-webkit-scrollbar {
+  width: 10px;
+ 
+}
+
+/* Track */
+.cards::-webkit-scrollbar-track {
+  background: transparent; 
+  
+}
+ 
+/* Handle */
+.cards::-webkit-scrollbar-thumb {
+  background: #fff; 
+  border-radius: 180px;
+
+}
+
+/* Handle on hover */
+.cards::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.carditem{
+  margin: 10px;
+  transition: 0.5s ease;
+  margin-bottom: 40px;
+
+}
+
+.carditem span{
+  font-size: 12px;
+  color: gray;
+
+}
+
+.carditem .play{
+
+  filter: grayscale(0%);
+
+}
+.carditem img{
+  border-radius: 5px;
+  width: 10vw;
+  height: 30vh;
+  filter: grayscale(100%);
+  transition: 0.5s ease;
+}
+
+.carditem:hover{
+  transform: scale(1) ;
+  cursor: pointer;
+}
+
+.carditem:hover img{
+  filter: grayscale(0);
+}
+
+.options{
+  display: flex;
+  color: white;
+  flex-direction: row;
+  padding: 30px;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.options .played{
+  font-family: 'Roboto', sans-serif;
+  flex: 0.3;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: gray;
+}
+.options .played select{
+  font-family: 'Roboto', sans-serif;
+  margin-top: 0px;
+  border: none;
+  background: none;
+  color: lightgray;
+}
+.options .played select option {
+  color: black;
+  border: none;
+}
+
+.options .filter{
+  font-family: 'Roboto', sans-serif;
+  flex: 0.8;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: gray;
+}
+.options .filter select{
+  font-family: 'Roboto', sans-serif;
+  margin-top: 0px;
+  border: none;
+  background: none;
+  color: lightgray;
+}
+.options .filter select option {
+  color: black;
+  border: none;
+}
+
+.flex2{
+display: flex;
+align-items: center;
+}
+.search{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  background-color:#292929;
+  border-radius: 10px;
+}
+.search svg{
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
+.search input{
+  border: none;
+  background: none;
+  margin-right: 10px;
+  outline: 0!important;
+  color: white;
 }
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px)
-  }
-  100% {
-    transform: translateY(0px)
-  }
+.list{
+  margin-right: 10px;
+}
+
+.list svg{
+  margin-right: 10px;
 }
